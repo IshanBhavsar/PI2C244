@@ -1,0 +1,2 @@
+# PI2C244
+The PI2C244 is a protocol interface device that converts I2C messages into CAN messages and vice versa. It can be used in a system that lacks CAN peripheral. It supports input from I2C bi-directional 2-wire bus. It supports 16 mailboxes that must be configured by I2C Master device. When any of the configured mailbox gets full with the data received over the CAN bus, PI2C244 will set its respective bit in Status Register and gives a trigger signal to notify the master. It also supports range of CAN IDs by using Mask ID that specifies the bits to be masked.
